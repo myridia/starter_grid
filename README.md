@@ -1,2 +1,2 @@
 # starter_grid
-## Getting started with CSS Grid
+Getting started with CSS Grid
