@@ -1,7 +1,8 @@
 # starter_grid
 Getting started with CSS and Grid
 
-# Demo Pagehttps://starter-grid.myridia.com/
+# Demo Page
+* https://starter-grid.myridia.com/
 
 # Install 
 ```
