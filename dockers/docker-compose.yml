@@ -1,0 +1,11 @@
+version: '3'
+services:
+  starter_grid_nginx:
+    container_name: starter_grid_nginx
+    image: nginx
+    ports:
+        - "80:80" 
+    volumes:
+      - ../public:/usr/share/nginx/html/
+      - ./etc/nginx/conf.d:/etc/nginx/conf.d
+    tty: true
