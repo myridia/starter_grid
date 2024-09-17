@@ -10,9 +10,12 @@ Getting started with CSS and Grid
 ```
 
 # Run with Dokcer
-```
+* ```
 cd starter_grid
 cd dockers
 docker-compose up
 ```
-* see http://127.0.0.1
+## Preview
+```
+firefox http://127.0.0.1
+```
