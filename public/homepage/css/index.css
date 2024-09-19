@@ -1,0 +1,66 @@
+html {
+  font-size: 62.5%; /* trick to make 1rem = 10px */
+}
+
+body {
+  background-color:green;
+  margin:0;
+  padding:0;
+  font-family: Verdana,Arial;
+}
+
+.container {
+  display:grid;
+  grid-template-columns: 16rem 1fr 16rem;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+      "header header header"
+      "nav content sidebar"
+      "footer footer footer";
+  min-height: 100vh;
+}
+
+/* Naming the Area */
+header {
+    grid-area:header;
+    padding: 2rem;
+    background-color: red;
+}
+
+nav {
+    grid-area:nav;
+    padding: 2rem;
+    background-color: green;    
+}
+
+main {
+    grid-area:content;
+    padding: 2rem;
+    background-color: blue;        
+}
+
+aside {
+    grid-area:sidebar;
+    padding: 2rem;
+    background-color: yellow;        
+}
+
+footer {
+    grid-area:footer;
+    padding: 2rem;
+    background-color: grey;        
+}
+
+
+@media (max-width: 1024px){ /* only need for smaller screens */
+    .container {
+	grid-template-columns: 1fr;
+	grid-template-rows: auto minmax(5rem,auto) 1fr minmax(5rem, auto) auto;
+	grid-template-areas:
+	    "header"
+	    "nav"
+	    "content"
+	    "sidebar"
+	    "footer";
+    }
+}
