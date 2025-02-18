@@ -9,7 +9,7 @@ Getting started with CSS and Grid
  git clone https://github.com/veto8/starter_grid.git 
 ```
 
-# Run with Dokcer
+# Run with Docker
 
 ```
 cd starter_grid
