@@ -1,3 +1,5 @@
+<img src="starter_grid.svg" alt="starter_grid" width="120">
+
 # starter_grid
 Getting started with CSS and Grid
 
